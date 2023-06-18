@@ -1,0 +1,22 @@
+html { scroll-behavior: smooth; }
+
+*,
+::before,
+::after { box-sizing: border-box; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a { text-decoration: none; }
+
+p { margin-top: 0; }
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
