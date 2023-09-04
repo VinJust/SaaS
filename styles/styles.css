@@ -79,6 +79,7 @@ header .learn-more .buttons .learn {
 
 .banner-one .flex {
   justify-content: space-between;
+  /* flex-wrap: wrap; */
 }
 
 .banner-one img {
@@ -95,4 +96,61 @@ header .learn-more .buttons .learn {
   margin-bottom: 56px;
   font-size: 38px;
   line-height: 1.1;
+  color: black;
+}
+
+.why {
+  margin-top: 103px;
+  text-align: center;
+}
+
+.why .bottom.flex {
+  padding: 0 137px;
+  margin-top: 94px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.why .bottom.flex i {
+  font-size: 8px;
+  color: #0166fe;
+  background-color: #ecf2ff;
+  padding: 29px;
+  border-radius: 50%;
+}
+
+.why .bottom.flex h3 {
+  font-weight: 400;
+  margin-top: 1px;
+}
+
+.why .bottom.flex hr {
+  width: 239px;
+  color: #e6e9f2;
+}
+
+.why .bottom-text.grid {
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin-top: 27px;
+}
+
+.video {
+  background-image: url("../assets/banners/banner_two.jpg");
+  margin-top: 118px;
+  position: relative;
+  text-align: center;
+  height: 554px;
+}
+
+.video a i {
+  font-size: 28px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 20px;
+  padding: 36px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
 }
